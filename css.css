@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.card1 {
+    border: 2px solid #FAEAD2;
+    border-radius: 50px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Border color */
+    border-radius: 50px;
+    margin: 20px;
+    background-color: #FAEAD2;
+}
+
+.subheading,
+.lastText {
+    text-align: center;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    /* Place the video behind other content */
+}
+
+.second h1 {
+
+    font-size: 7vh;
+    width: 100%;
+    height: 100%;
+    background: white;
+    font-size: 5vw;
+    /* Adjust the font size as needed */
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 100vh;
+    mix-blend-mode: screen;
+}
+
+.subheading h1,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lastText {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+
+}
+
+.flower {
+    position: relative;
+    height: 22vh;
+}
+
+.secondCard {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Border color */
+    border-radius: 50px;
+    margin: 20px;
+    background-color: #FAEAD2;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+}
+
+.banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(2.0);
+}
+
+.banner h2 {
+    position: absolute;
+    font-size: 11vw;
+    /* Adjust the font size as needed */
+    text-align: center;
+    background: #FAEAD2;
+    text-transform: uppercase;
+    color: #000;
+    mix-blend-mode: screen;
+    width: 100%;
+}
